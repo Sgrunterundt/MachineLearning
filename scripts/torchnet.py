@@ -9,6 +9,7 @@ import mnist_loader_torch
 class torchnet(nn.Module):
     
     def __init__(self):
+        """Define the layers of the network. 3 convolutional layers followed by 2 fully connected"""
         super(torchnet, self).__init__()
         
         self.conv1 = nn.Conv2d(1, 10, 3)
@@ -30,7 +31,7 @@ class torchnet(nn.Module):
         return x
     
     def flat_size(self, x):
-        
+        """used to flatten the data after the conv-layers into a one dimensional vector for the fully connected layers"""
         size = x.size()[1:]
         num_features = 1
         for s in size:
@@ -44,7 +45,7 @@ class torchnet(nn.Module):
             t_d = torch.zeros(n_test, 1, 28, 28)
             t_r = torch.zeros(n_test, dtype=torch.int64)
             for j in range(n_test):
-                t_d[j][0][:][:] = test_data[j][0]
+                t_d[j][0][:][:] = test_data[j][0] #there must be a better way...
                 t_r[j] = test_data[j][1]
             
         n = len(training_data)
@@ -84,6 +85,7 @@ class torchnet(nn.Module):
         
     
 def run():
+    """this piece of code really belongs in a different file"""
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
     net = torchnet()
     optimizer = optim.SGD(net.parameters(), lr=0.01)

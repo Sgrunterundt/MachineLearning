@@ -1,3 +1,6 @@
+"""Data loader modified from the data loader included in the Deep Learning and 
+Neural Nets course. Changed to format the data for a convnet using pytorch"""
+
 # Standard library
 import _pickle as cPickle
 import gzip
@@ -40,21 +43,13 @@ def load_data_wrapper():
     convenient for use in our implementation of neural networks.
 
     In particular, ``training_data`` is a list containing 50,000
-    2-tuples ``(x, y)``.  ``x`` is a 784-dimensional numpy.ndarray
-    containing the input image.  ``y`` is a 10-dimensional
-    numpy.ndarray representing the unit vector corresponding to the
+    2-tuples ``(x, y)``.  ``x`` is a (1,1,28,28)-dimensional torch tensor
+    containing the input image.  ``y`` is a 1-dimensional long integer
+    torch tensor corresponding to the
     correct digit for ``x``.
 
-    ``validation_data`` and ``test_data`` are lists containing 10,000
-    2-tuples ``(x, y)``.  In each case, ``x`` is a 784-dimensional
-    numpy.ndarry containing the input image, and ``y`` is the
-    corresponding classification, i.e., the digit values (integers)
-    corresponding to ``x``.
-
-    Obviously, this means we're using slightly different formats for
-    the training data and the validation / test data.  These formats
-    turn out to be the most convenient for use in our neural network
-    code."""
+    ``validation_data`` and ``test_data`` likewise are lists containing 10,000
+    images and their corresponding correct digit"""
     tr_d, va_d, te_d = load_data()
     training_inputs = [torch.from_numpy(np.reshape(x, (1, 1, 28, 28))) for x in tr_d[0]]
     training_data = list(zip(training_inputs, torch.tensor(tr_d[1])))
@@ -68,7 +63,7 @@ def vectorized_result(j):
     """Return a 10-dimensional unit vector with a 1.0 in the jth
     position and zeroes elsewhere.  This is used to convert a digit
     (0...9) into a corresponding desired output from the neural
-    network."""
+    network. Not used in the torch version."""
     e = np.zeros((10, 1))
     e[j] = 1.0
     return e
