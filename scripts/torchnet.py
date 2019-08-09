@@ -80,7 +80,6 @@ class torchnet(nn.Module):
         
     def evaluate(self, x, y):
         test_results = zip(self.feedforward(x).max(1)[1].tolist(), y.tolist()) 
-        print(test_results)
         return sum(int(x == y) for (x, y) in test_results)
         
     
@@ -89,7 +88,7 @@ def run():
     net = torchnet()
     optimizer = optim.SGD(net.parameters(), lr=0.01)
     criterion = nn.CrossEntropyLoss()
-    net.train(training_data, 40, 30, optimizer, criterion, test_data=test_data)
-
+    net.train(training_data, 20, 30, optimizer, criterion, test_data=test_data)
+    torch.save(net.state_dict(), '../data/pretrained.txt')
+    
 run()
-
