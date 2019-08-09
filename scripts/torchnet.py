@@ -80,6 +80,7 @@ class torchnet(nn.Module):
         
     def evaluate(self, x, y):
         test_results = zip(self.feedforward(x).max(1)[1].tolist(), y.tolist()) 
+        print(test_results)
         return sum(int(x == y) for (x, y) in test_results)
         
     
