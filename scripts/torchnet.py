@@ -85,8 +85,6 @@ class torchnet(nn.Module):
         
     
 def new(path):
-    """#this piece of code really belongs in a different file
-"""
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
     net = torchnet()
     optimizer = optim.SGD(net.parameters(), lr=0.01)

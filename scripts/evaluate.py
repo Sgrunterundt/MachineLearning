@@ -9,7 +9,7 @@ if len(sys.argv) < 2:
 else:
 
     img = imread(sys.argv[1])
-    img = 1 - img
+    #img = 1 - img
 
     im = torch.from_numpy(np.reshape(img[:,:,1], (1,1,28,28)))
 
