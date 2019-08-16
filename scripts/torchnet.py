@@ -84,13 +84,21 @@ class torchnet(nn.Module):
         return sum(int(x == y) for (x, y) in test_results)
         
     
-def run():
-    """this piece of code really belongs in a different file"""
+def new(path):
+    """#this piece of code really belongs in a different file
+"""
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
     net = torchnet()
     optimizer = optim.SGD(net.parameters(), lr=0.01)
     criterion = nn.CrossEntropyLoss()
     net.train(training_data, 20, 30, optimizer, criterion, test_data=test_data)
-    torch.save(net.state_dict(), '../data/pretrained.txt')
+    torch.save(net, path)
     
-run()
+
+def ekstratrain(path):
+    training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
+    net = torch.load(path)
+    optimizer = optim.SGD(net.parameters(), lr=0.01)
+    criterion = nn.CrossEntropyLoss()
+    net.train(training_data, 20, 30, optimizer, criterion, test_data=test_data)
+    torch.save(net, path)
