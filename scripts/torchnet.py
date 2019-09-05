@@ -38,7 +38,7 @@ class torchnet(nn.Module):
             num_features *= s
         return num_features
 
-    def train(self, training_data, epochs, mini_batch_size, optimizer, criterion, test_data=None):
+    def train(self, training_data, epochs, mini_batch_size, optimizer, criterion, device, test_data=None):
        
         if test_data: 
             n_test = len(test_data)
@@ -59,16 +59,18 @@ class torchnet(nn.Module):
             for mini_batch in mini_batches:
                # print(a)
                # a+=1
+                torch.cuda.empty_cache()
                 mb = torch.zeros(mini_batch_size, 1, 28, 28)
                 tg = torch.zeros(mini_batch_size, dtype=torch.int64)
                 for j in range(len(mini_batch)):
                     mb[j][0][:][:] = mini_batch[j][0]
                     tg[j] = mini_batch[j][1]
-                self.batch_update(mb, tg, optimizer, criterion) #In turn send each mini batch through the training routine
+                self.batch_update(mb.to(device), tg.to(device), optimizer, criterion) #In turn send each mini batch through the training routine
+            torch.cuda.empty_cache()
             if test_data:
                 print("Epoch {0} complete, evaluating".format(i))
                 print("Epoch number {0} Evaluated. Test result: {1} / {2}".format( #after the whole training set has been used once, do a test on the test data if it is included
-                    i, self.evaluate(t_d,t_r), n_test))
+                    i, self.evaluate(t_d.to(device),t_r.to(device)), n_test))
             else:
                 print("Epoch {0} complete".format(i))
             
@@ -86,17 +88,21 @@ class torchnet(nn.Module):
     
 def new(path):
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
-    net = torchnet()
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print(device)
+    net = torchnet().to(device)
     optimizer = optim.SGD(net.parameters(), lr=0.01)
     criterion = nn.CrossEntropyLoss()
-    net.train(training_data, 20, 30, optimizer, criterion, test_data=test_data)
+    net.train(training_data, 10, 30, optimizer, criterion, device, test_data=test_data[0:1000])
     torch.save(net, path)
     
 
 def ekstratrain(path):
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
-    net = torch.load(path)
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    print(device)
+    net = torch.load(path).to(device)
     optimizer = optim.SGD(net.parameters(), lr=0.01)
     criterion = nn.CrossEntropyLoss()
-    net.train(training_data, 20, 30, optimizer, criterion, test_data=test_data)
+    net.train(training_data, 10, 30, optimizer, criterion, device, test_data=test_data[0:1000])
     torch.save(net, path)

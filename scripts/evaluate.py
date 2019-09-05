@@ -16,7 +16,12 @@ else:
 
     net = torch.load('..\data\pretrained.pth')
 
-    a = net.feedforward(im).max(1)[1].data.tolist()[0]
 
-    if a==0: print("Hmm, det ligner et 0.")
-    else: print("Hmm, det ligner et {0}-tal".format(a))
+    a = net.feedforward(im)
+    
+    print(a)
+    
+    b= a.max(1)[1].data.tolist()[0]
+
+    if b==0: print("Hmm, det ligner et 0.")
+    else: print("Hmm, det ligner et {0}-tal".format(b))
