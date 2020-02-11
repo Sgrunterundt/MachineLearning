@@ -12,6 +12,7 @@ else:
 
     training_data, validation_data, test_data = mnist_loader_torch.load_data_wrapper()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    #device = torch.device("cpu")
     print(device)
     path = sys.argv[1]
     if os.path.isfile(path):

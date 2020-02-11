@@ -1,0 +1,5 @@
+import torch
+
+def dataEnhance(data, negative=True, shift=True, noise=True):
+    if (negative):
+        data = data + zip([(1-x[0]) for x in data], [y[1] for y in data])

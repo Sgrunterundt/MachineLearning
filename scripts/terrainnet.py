@@ -6,38 +6,45 @@ import torch.nn.functional as func
 import torch.optim as optim
 
 
-class torchnet(nn.Module):
+class terrainnet(nn.Module):
     
     def __init__(self):
         """Define the layers of the network. 3 convolutional layers followed by 2 fully connected"""
-        super(torchnet, self).__init__()
+        super(terrainnet, self).__init__()
         
         self.conv1 = nn.Conv2d(1, 10, 3)
         self.conv2 = nn.Conv2d(10, 20, 3)
-        self.conv3 = nn.Conv2d(20, 20, 3)
+        self.conv3 = nn.Conv2d(20, 40, 3)
+        self.conv4 = nn.Conv2d(40, 80, 3)
+        self.conv5 = nn.Conv2d(80, 80, 3)
+        self.conv6 = nn.Conv2d(80, 80, 3)
+        self.conv7 = nn.Conv2d(80, 80, 3)
+        self.conv8 = nn.Conv2d(80, 80, 3)
+        self.conv9 = nn.Conv2d(160, 80, 3)
+        self.conv10 = nn.Conv2d(160, 80, 3)
+        self.conv11 = nn.Conv2d(160, 80, 3)
+        self.conv12 = nn.Conv2d(160, 80, 3)
+        self.conv13 = nn.Conv2d(120, 40, 3)
+        self.conv14 = nn.Conv2d(60, 20, 3)
+        self.conv15 = nn.Conv2d(30, 10, 3)
+        self.conv16 = nn.Conv2d(11, 1, 3)
         
-        self.fc1 = nn.Linear(5*5*20, 100)
-        self.fc2 = nn.Linear(100,10)
-        #self.SM = nn.Softmax(dim=1)
+        
         
     def feedforward(self, x):
         
-        x = func.max_pool2d(self.conv2(func.relu(self.conv1(x))), (2,2))
-        x = func.max_pool2d(func.relu(self.conv3(x)), (2,2))
-        x = x.view(-1, self.flat_size(x))
-        x = func.relu(self.fc1(x))
-        x = func.relu(self.fc2(x))
-        #x = self.SM(x)
+        x1 = func.max_pool2d(func.relu(self.conv1(x)), (2,2))
+        x2 = func.max_pool2d(func.relu(self.conv2(x)), (2,2))
+        x3 = func.max_pool2d(func.relu(self.conv3(x)), (2,2))
+        x4 = func.max_pool2d(func.relu(self.conv4(x)), (2,2))
+        x5 = func.max_pool2d(func.relu(self.conv5(x)), (2,2))
+        x6 = func.max_pool2d(func.relu(self.conv6(x)), (2,2))
+        x7 = func.max_pool2d(func.relu(self.conv7(x)), (2,2))
+        x8 = func.max_pool2d(func.relu(self.conv8(x)), (2,2))
+        
+        
         return x
     
-    def flat_size(self, x):
-        """used to flatten the data after the conv-layers into a one dimensional vector for the fully connected layers"""
-        size = x.size()[1:]
-        num_features = 1
-        for s in size:
-            num_features *= s
-        return num_features
-
     def train(self, training_data, epochs, mini_batch_size, optimizer, criterion, device, test_data=None):
        
         if test_data: 

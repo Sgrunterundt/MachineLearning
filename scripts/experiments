@@ -1,0 +1,1561 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Kasper>mongo
+MongoDB shell version v4.2.1
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ef2e7ebe-e178-4480-bf68-6ca847b97332") }
+MongoDB server version: 4.2.1
+Welcome to the MongoDB shell.
+For interactive help, type "help".
+For more comprehensive documentation, see
+        http://docs.mongodb.org/
+Questions? Try the support group
+        http://groups.google.com/group/mongodb-user
+Server has startup warnings:
+2019-10-30T19:43:40.772+0100 I  CONTROL  [initandlisten]
+2019-10-30T19:43:40.772+0100 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-10-30T19:43:40.772+0100 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-10-30T19:43:40.772+0100 I  CONTROL  [initandlisten]
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+
+>  ^C
+bye
+
+C:\Users\Kasper>cd ..
+
+C:\Users>cd ..
+
+C:\>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 5AC4-41F5
+
+ Directory of C:\
+
+17/01/2019  12.07    <DIR>          Acer
+02/08/2019  21.15    <DIR>          cygwin64
+19/03/2019  05.52    <DIR>          PerfLogs
+30/10/2019  19.38    <DIR>          Program Files
+10/10/2019  17.40    <DIR>          Program Files (x86)
+22/07/2019  17.47    <DIR>          UFO
+01/08/2019  12.07    <DIR>          Users
+10/10/2019  07.03    <DIR>          Windows
+               0 File(s)              0 bytes
+               8 Dir(s)  25.583.804.416 bytes free
+
+C:\>cd users
+
+C:\Users>cd kasper
+
+C:\Users\Kasper>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 5AC4-41F5
+
+ Directory of C:\Users\Kasper
+
+31/10/2019  14.16    <DIR>          .
+31/10/2019  14.16    <DIR>          ..
+31/10/2019  14.16                 0 .dbshell
+22/06/2019  07.09    <DIR>          .eclipse
+13/06/2018  21.30                89 .gitconfig
+30/10/2019  12.08    <DIR>          .maplesoft
+03/09/2019  16.49    <DIR>          .matplotlib
+30/10/2019  19.49                 0 .mongorc.js
+22/06/2019  07.09    <DIR>          .p2
+19/11/2018  12.34    <DIR>          .phet
+14/06/2018  15.38    <DIR>          .pype
+27/06/2018  09.04    <DIR>          .swt
+22/06/2019  07.09    <DIR>          .tooling
+10/10/2019  07.04    <DIR>          3D Objects
+10/10/2019  07.04    <DIR>          Contacts
+30/10/2019  19.44    <DIR>          Creative Cloud Files
+30/10/2019  19.41    <DIR>          Desktop
+26/10/2019  19.04    <DIR>          Documents
+30/10/2019  19.35    <DIR>          Downloads
+22/06/2019  07.05    <DIR>          eclipse
+22/06/2019  07.11    <DIR>          eclipse-workspace
+10/10/2019  07.04    <DIR>          Favorites
+10/10/2019  07.05    <DIR>          Links
+13/06/2018  21.30                76 mercurial.ini
+10/10/2019  07.04    <DIR>          Music
+30/10/2019  19.44    <DIR>          OneDrive
+24/10/2019  16.14    <DIR>          Pictures
+10/10/2019  07.05    <DIR>          Saved Games
+10/10/2019  07.04    <DIR>          Searches
+18/09/2019  19.01    <DIR>          source
+16/10/2019  12.17    <DIR>          terrain
+16/10/2019  22.14    <DIR>          terrain2
+10/10/2019  16.09           524.288 terraintest.raw
+10/10/2019  15.49         2.097.520 terraintest.tiff
+10/10/2019  07.04    <DIR>          Videos
+               6 File(s)      2.621.973 bytes
+              29 Dir(s)  25.583.460.352 bytes free
+
+C:\Users\Kasper>cd documents
+
+C:\Users\Kasper\Documents>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 5AC4-41F5
+
+ Directory of C:\Users\Kasper\Documents
+
+26/10/2019  19.04    <DIR>          .
+26/10/2019  19.04    <DIR>          ..
+23/10/2019  19.05           128.975 1.6.35196_SamiSalami VS kefeld 132163275097326096.rp
+23/10/2019  19.08            97.828 1.6.35196_urs VS kefeld 132163277364118016.rp
+29/06/2019  13.40             2.406 2 .bmp
+16/01/2019  11.16           128.084 2019 IP_matematik 1htx_1 hierarki.pdf
+16/01/2019  11.16           146.294 2019 IP_matematik 1htx_2 brøker.pdf
+05/02/2019  17.31           101.655 2019 IP_matematik 1htx_3 parenteser.pdf
+20/02/2019  11.53           107.621 2019 IP_matematik 1htx_4 potenser.pdf
+25/06/2019  14.11            12.855 Aalborg.png
+10/10/2019  15.43    <DIR>          Adobe
+12/08/2018  17.51            15.655 Application29439296.pdf
+14/07/2018  16.17    <DIR>          Arduino
+21/02/2019  08.19            14.772 Astronomiopgaver.docx
+29/05/2019  07.59            20.643 Astronomispørgsmål.docx
+29/05/2019  08.14            20.542 Astronomispørgsmål2.docx
+16/06/2019  09.30            20.667 AstronomispørgsmålNy.docx
+28/05/2019  15.01            13.577 Astronomi_foreløbig.docx
+29/08/2018  06.20            30.286 auto-mpg.data.txt
+27/08/2019  14.51           303.709 badgraph.png
+09/09/2018  09.27            64.428 boardgameportwine.webp
+11/05/2019  15.37           208.138 ChickenJava.png
+28/05/2019  21.37           122.894 Cover Letter Kasper Feld.docx
+28/05/2019  21.37           115.357 Cover Letter Kasper Feld.pdf
+27/05/2019  18.30            87.904 Cover Letter.pdf
+16/06/2018  15.40    <DIR>          Custom Office Templates
+30/06/2019  09.39           142.826 CV-Kasper Feld.pdf
+22/09/2018  09.07            92.720 Dariapas.jpg
+14/04/2019  19.30           113.176 Dashaoverførsel.png
+14/04/2019  19.30           134.843 Dashaoverførsel2.png
+02/08/2019  21.08               534 download_model.sh
+07/04/2019  17.14                56 Fusion360test.csv
+04/02/2019  13.08            10.958 Fysiktest.odt
+29/05/2019  09.26           122.839 Følgebrev Kasper Feld.docx
+29/05/2019  09.26           110.836 Følgebrev Kasper Feld.pdf
+04/09/2019  10.56           184.710 gaussiannoise.png
+04/09/2019  11.03           453.763 gaussiannoisefit.png
+07/04/2019  19.09               557 Geosphere.csv
+07/04/2019  19.11               557 Geosphere2.csv
+07/04/2019  19.13               192 Geosphere3.csv
+07/04/2019  19.13               192 Geosphere3.txt
+07/04/2019  19.56             1.340 Geosphere4.csv
+07/04/2019  19.57               488 Geosphere5.csv
+02/10/2019  18.44           142.028 Guild.png
+02/10/2019  18.36           187.534 guild2.png
+09/10/2019  16.20           115.887 guild3.png
+05/07/2018  22.28             5.969 guldvægt.ods
+09/10/2019  16.20           684.272 haircolor.png
+08/08/2018  10.15            52.534 homicides.png
+03/02/2019  22.03            50.119 hoppertweet.jpg
+16/06/2018  15.41           786.885 invitation.odt
+28/05/2019  11.14           134.650 kap8_9.png
+26/08/2019  09.07            67.717 Kunstværk 2o.pdf
+26/08/2019  09.06            68.270 Kunstværk 2z.pdf
+26/06/2019  09.57             6.099 Køge.png
+09/10/2019  07.25    <DIR>          Machine Learning
+06/02/2019  08.18             6.814 Matematiktest.odt
+06/02/2019  08.19           100.726 Matematiktest.pdf
+13/10/2019  17.49         1.271.605 me.png
+15/01/2019  19.09           380.148 mig.png
+18/08/2019  17.41    <DIR>          Minion Masters
+10/11/2018  17.17    <DIR>          My Games
+10/09/2019  20.30            71.680 Navne_BK.xls
+15/01/2019  19.06           125.300 Pas.jpg
+07/04/2019  09.03            13.598 Pi.ods
+07/04/2019  09.03            20.743 Pi.xlsx
+16/05/2019  10.09            49.088 plots.mw
+08/08/2018  10.14            51.009 Policekillings.png
+07/04/2019  09.04             9.519 Predictions.xlsx
+11/05/2019  19.57           196.903 PumaJava.png
+19/09/2019  14.53    <DIR>          RaspberryPi
+26/10/2019  19.03             5.474 Raven.odt
+05/07/2018  22.28           125.284 red hering.odt
+14/03/2019  10.33            14.405 saksebord.ggb
+28/05/2019  17.29    <DIR>          Screencast-O-Matic
+26/09/2019  16.15             1.625 Shadertoy.txt
+27/09/2019  12.39             1.634 Shadertoy2.txt
+03/10/2019  15.41             1.083 ShadertoyTorus.txt
+06/10/2019  08.58             2.127 ShadertoyTorusFreaky.txt
+26/06/2019  09.36            13.732 Skjern.png
+28/02/2019  11.59            23.338 Skulderjournal.pdf
+30/06/2019  16.59    <DIR>          SMA
+11/04/2019  19.01           119.678 spacextime.png
+31/01/2019  12.00             4.878 Strength-throw.ods
+05/09/2019  12.55    <DIR>          Sukertoppen
+18/09/2019  11.37           167.230 TarsiaCalculus.pdf
+25/09/2019  15.47           479.712 Teleerklæring.pdf
+19/06/2018  13.54           117.216 tellthetruth.jpg
+31/10/2019  14.08    <DIR>          Terrain Experiments
+25/12/2018  11.26       787.063.543 th3egift1ms.mp4
+25/12/2018  11.21         6.443.208 th3egift1ms.mp4.crdownload
+25/12/2018  11.21         2.215.568 th3g1ftbonus.mp4.crdownload
+25/12/2018  11.21         6.946.571 Th3G1ft_Watch_This_First (1).mp4.crdownload
+25/12/2018  11.21         1.537.216 Th3G1ft_Watch_This_First.mp4.crdownload
+16/06/2019  18.19            50.818 undervisningsbeskrivelse Astronomi.docx
+18/09/2019  19.11    <DIR>          Visual Studio 2017
+29/10/2019  19.29    <DIR>          VR-experiments
+22/09/2018  09.14            38.515 VU2Application (1).pdf
+18/06/2018  10.25           129.216 western.jpg
+23/01/2019  08.05            96.472 WTFspam.jpg
+              85 File(s)    813.332.517 bytes
+              15 Dir(s)  25.582.981.120 bytes free
+
+C:\Users\Kasper\Documents>cd terrain experiments
+
+C:\Users\Kasper\Documents\Terrain Experiments>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 5AC4-41F5
+
+ Directory of C:\Users\Kasper\Documents\Terrain Experiments
+
+31/10/2019  14.08    <DIR>          .
+31/10/2019  14.08    <DIR>          ..
+31/10/2019  14.08            20.858 Assembly-CSharp.csproj
+31/10/2019  14.10    <DIR>          Assets
+31/10/2019  14.08    <DIR>          Library
+17/10/2019  14.51    <DIR>          obj
+10/10/2019  15.16    <DIR>          Packages
+18/10/2019  17.05    <DIR>          ProjectSettings
+31/10/2019  14.08    <DIR>          Temp
+17/10/2019  14.51               921 Terrain Experiments.sln
+               2 File(s)         21.779 bytes
+               8 Dir(s)  25.582.870.528 bytes free
+
+C:\Users\Kasper\Documents\Terrain Experiments>cd assets
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>dir
+ Volume in drive C is Acer
+ Volume Serial Number is 5AC4-41F5
+
+ Directory of C:\Users\Kasper\Documents\Terrain Experiments\Assets
+
+31/10/2019  14.10    <DIR>          .
+31/10/2019  14.10    <DIR>          ..
+24/10/2019  22.02        33.568.903 bigterrainwithclouds.unity
+21/10/2019  23.04               155 bigterrainwithclouds.unity.meta
+18/10/2019  13.04               157 blue.png
+18/10/2019  13.04             1.831 blue.png.meta
+24/10/2019  21.15               779 CloudBaker.compute
+22/10/2019  18.44               181 CloudBaker.compute.meta
+22/10/2019  18.14               303 cloudbaker.cs
+22/10/2019  18.08               243 cloudbaker.cs.meta
+24/10/2019  21.17               417 CloudBaker2.compute
+24/10/2019  21.16               181 CloudBaker2.compute.meta
+24/10/2019  17.49             3.513 clouds.cs
+19/10/2019  15.57               243 clouds.cs.meta
+19/10/2019  23.32             2.020 clouds.mat
+19/10/2019  19.16               188 clouds.mat.meta
+26/10/2019  19.47             4.429 clouds.shader
+19/10/2019  19.17               204 clouds.shader.meta
+21/10/2019  10.06            12.428 clouds.unity
+21/10/2019  09.16               155 clouds.unity.meta
+21/10/2019  09.18             2.050 clouds2.mat
+20/10/2019  11.53               188 clouds2.mat.meta
+20/10/2019  12.24             1.205 clouds2.shader
+20/10/2019  11.53               204 clouds2.shader.meta
+18/10/2019  19.15            12.443 download.jpg
+18/10/2019  19.15             1.831 download.jpg.meta
+17/10/2019  17.00             9.194 eroded.unity
+17/10/2019  17.00               155 eroded.unity.meta
+19/10/2019  23.32            12.356 eroded2.unity
+18/10/2019  21.02               155 eroded2.unity.meta
+18/10/2019  17.05             9.589 generate.unity
+18/10/2019  11.52               155 generate.unity.meta
+19/09/2019  12.41            19.445 grass.jpg
+16/10/2019  13.19             1.831 grass.jpg.meta
+18/10/2019  13.51            17.892 gravel.jpg
+18/10/2019  14.11             1.831 gravel.jpg.meta
+18/10/2019  13.04               160 green.png
+18/10/2019  13.04             1.831 green.png.meta
+28/10/2019  20.35            10.043 HeightAndTexture.cs
+17/10/2019  17.04               243 HeightAndTexture.cs.meta
+20/10/2019  13.41    <DIR>          Materials
+20/10/2019  13.41               172 Materials.meta
+18/10/2019  17.33    <DIR>          MouseFlight
+31/12/2018  09.12               180 MouseFlight.meta
+16/10/2019  12.58         1.072.268 New Terrain 1.asset
+16/10/2019  12.58               189 New Terrain 1.asset.meta
+16/10/2019  13.35         1.072.268 New Terrain 2.asset
+16/10/2019  13.35               189 New Terrain 2.asset.meta
+17/10/2019  16.59         2.472.640 New Terrain 3.asset
+16/10/2019  22.38               189 New Terrain 3.asset.meta
+29/10/2019  16.15         3.871.496 New Terrain 4.asset
+17/10/2019  17.00               189 New Terrain 4.asset.meta
+10/10/2019  15.19         1.072.264 New Terrain.asset
+10/10/2019  15.19               189 New Terrain.asset.meta
+22/10/2019  18.13             5.346 NoiseGenerator.cs
+20/10/2019  17.39               243 NoiseGenerator.cs.meta
+18/10/2019  13.04               157 red.png
+18/10/2019  13.04             1.831 red.png.meta
+17/10/2019  17.02            16.220 rock.jpg
+17/10/2019  17.02             1.831 rock.jpg.meta
+10/10/2019  15.16    <DIR>          Scenes
+30/05/2018  12.27               180 Scenes.meta
+18/10/2019  17.05             3.058 Skyboks.mat
+18/10/2019  16.42               188 Skyboks.mat.meta
+18/10/2019  13.49             1.949 snow.jpg
+18/10/2019  14.11             1.831 snow.jpg.meta
+31/10/2019  14.10           526.338 terrain.raw
+17/10/2019  14.55             1.006 TerrainTerraforming.cs
+17/10/2019  14.51               243 TerrainTerraforming.cs.meta
+19/06/2009  19.12         4.005.993 TropicalSunnyDayBack2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayBack2048 (2016_10_02 14_35_15 UTC).png.meta
+19/06/2009  18.59         2.224.262 TropicalSunnyDayDown2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayDown2048 (2016_10_02 14_35_15 UTC).png.meta
+19/06/2009  18.53         3.775.323 TropicalSunnyDayFront2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayFront2048 (2016_10_02 14_35_15 UTC).png.meta
+19/06/2009  19.18         3.664.745 TropicalSunnyDayLeft2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayLeft2048 (2016_10_02 14_35_15 UTC).png.meta
+19/06/2009  19.05         3.733.987 TropicalSunnyDayRight2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayRight2048 (2016_10_02 14_35_15 UTC).png.meta
+19/06/2009  18.55         4.126.250 TropicalSunnyDayUp2048 (2016_10_02 14_35_15 UTC).png
+18/10/2019  16.41             1.831 TropicalSunnyDayUp2048 (2016_10_02 14_35_15 UTC).png.meta
+              76 File(s)     65.363.331 bytes
+               5 Dir(s)  25.582.870.528 bytes free
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rawpy
+>>> import imageio
+>>> path = "terrain.raw"
+>>> raw = rawpy.imread(path)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\rawpy\__init__.py", line 20, in imread
+    d.open_file(pathOrFile)
+  File "rawpy\_rawpy.pyx", line 266, in rawpy._rawpy.RawPy.open_file
+  File "rawpy\_rawpy.pyx", line 670, in rawpy._rawpy.RawPy.handle_error
+rawpy._rawpy.LibRawNonFatalError: b'Unsupported file format or not RAW file'
+>>> raw = rawpy.imread(terrain.raw)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'terrain' is not defined
+>>> raw = rawpy.imread("terrain.raw")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\rawpy\__init__.py", line 20, in imread
+    d.open_file(pathOrFile)
+  File "rawpy\_rawpy.pyx", line 266, in rawpy._rawpy.RawPy.open_file
+  File "rawpy\_rawpy.pyx", line 670, in rawpy._rawpy.RawPy.handle_error
+rawpy._rawpy.LibRawNonFatalError: b'Unsupported file format or not RAW file'
+>>> file = open("terrain.raw", 'rb')
+>>> file.read(1)
+b'\xa0'
+>>> file.read(2)
+b'\x05\xea'
+>>> file.read(3)
+b'\x05\x96\x05'
+>>> file.read(3)
+b'\xce\x05\xac'
+>>> file.close()
+>>> file = open("smallflat.raw", 'rb')
+>>> file.read(1)
+b'\x00'
+>>> file.read(1)
+b'\x00'
+>>> file.read(1)
+b'\x00'
+>>> file.read(5)
+b'\x00\x00\x00\x00\x00'
+>>> a = file.read(1)
+>>> a
+b'\x00'
+>>> a+1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't concat int to bytes
+>>> file = open("smallflat.raw", 'r')
+>>> file.read(1)
+'\x00'
+>>> file.read(5)
+'\x00\x00\x00\x00\x00'
+>>> file = open("nord.raw", 'r')
+>>> file.read(1)
+'\x00'
+>>> file.read(1)
+'\x00'
+>>> file.read(1)
+'\x00'
+>>> file.read(1)
+'\x00'
+>>> file.close()
+>>> file = open("syd.raw", 'rb')
+>>> file.read(1)
+b'X'
+>>> file.close()
+>>> file = open("east.raw", 'rb')
+>>> file.read(1)
+b'\x00'
+>>> file.close()
+>>> file = open("sydvest.raw", 'r')
+>>> file.read(1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 6: character maps to <undefined>
+>>> file.close()
+>>> file = open("sydvest.raw", 'rb')
+>>> file.read(1)
+b'\xe4'
+>>> file.read(1)
+b'\x01'
+>>> file.read(1)
+b'\xc8'
+>>> file.read(1)
+b'\x03'
+>>> file.read(1)
+b'\xac'
+>>> file.read(1)
+b'\x05'
+>>> file.read(1)
+b'\x90'
+>>> file.read(1)
+b'\x07'
+>>> file.read(1)
+b'X'
+>>> file.read(1)
+b'\x0b'
+>>> file.read(1)
+b'\x00'
+>>> file.read(5)
+b'\x00\x00\x00\x00\x00'
+>>> file.read(5)
+b'\x00\x00\x00\x00\x00'
+>>> import numpy as np
+>>>
+>>> f = open("file.bin", "r")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'file.bin'
+>>> a = np.fromfile(f, dtype=np.uint32)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'f' is not defined
+>>> f = open("terrain.raw", "r")
+>>> a = np.fromfile(f, dtype=np.uint16)
+>>> a
+array([1440, 1514, 1430, ..., 1400, 1472, 1434], dtype=uint16)
+>>> size(a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'size' is not defined
+>>> a.size
+263169
+>>> f = open("smallcentralhill.raw", "r")
+>>> a = np.fromfile(f, dtype=np.uint16)
+>>> a.size
+1089
+>>> 33*33
+1089
+>>> a.reshape((33,33))
+array([[ 874, 1014, 1376, ..., 1028,  776,  644],
+       [1004, 1376, 1638, ..., 1280, 1028,  892],
+       [1260, 1632, 2014, ..., 1542, 1280, 1024],
+       ...,
+       [ 988, 1236, 1488, ..., 1148,  890,  758],
+       [ 742,  872, 1114, ..., 1006,  760,  628],
+       [ 494,  736,  872, ...,  754,  516,  384]], dtype=uint16)
+>>> a
+array([ 874, 1014, 1376, ...,  754,  516,  384], dtype=uint16)
+>>> a = a.reshape((33,33))
+>>> a[10:20]
+array([[ 4008,  5124,  6258,  7640,  9151, 10903, 12555, 14437, 16215,
+        18099, 19869, 21405, 22677, 23697, 24349, 24624, 24632, 24271,
+        23529, 22409, 21035, 19521, 17769, 15997, 14113, 12335, 10567,
+         8919,  7396,  6116,  4976,  3842,  3064],
+       [ 4366,  5502,  6640,  8255,  9897, 11659, 13547, 15557, 17573,
+        19477, 21251, 23135, 24429, 25454, 26226, 26618, 26516, 26150,
+        25292, 24049, 22665, 20915, 19143, 17139, 15235, 13225, 11325,
+         9555,  7906,  6388,  5228,  4094,  3200],
+       [ 4496,  5860,  7134,  8751, 10513, 12405, 14411, 16435, 18459,
+        20591, 22497, 24391, 25802, 26948, 27842, 28124, 28020, 27650,
+        26792, 25546, 24045, 22173, 20159, 18135, 16003, 13973, 11957,
+        10177,  8413,  6880,  5492,  4346,  3448],
+       [ 4744,  5996,  7492,  9009, 10885, 13011, 14921, 17171, 19435,
+        21471, 23487, 25500, 26924, 28070, 28964, 29250, 29258, 28782,
+        27914, 26552, 25042, 23165, 21035, 18781, 16741, 14485, 12453,
+        10557,  8787,  7026,  5734,  4594,  3580],
+       [ 4870,  6234,  7620,  9251, 11245, 13261, 15401, 17663, 19815,
+        22077, 24109, 26006, 27652, 28814, 29708, 30110, 30008, 29638,
+        28660, 27296, 25670, 23671, 21531, 19505, 17129, 14855, 12707,
+        10805,  9031,  7386,  5872,  4716,  3702],
+       [ 4990,  6244,  7624,  9367, 11251, 13261, 15517, 17785, 20053,
+        22317, 24465, 26368, 27898, 29170, 30074, 30472, 30370, 29888,
+        28904, 27652, 26032, 24033, 21781, 19629, 17251, 14977, 12829,
+        10927,  9041,  7386,  5984,  4722,  3702],
+       [ 5098,  6358,  7742,  9369, 11247, 13257, 15505, 17773, 20045,
+        22189, 24327, 26230, 27760, 29028, 30048, 30336, 30228, 29862,
+        28884, 27516, 25894, 23895, 21763, 19501, 17233, 14969, 12821,
+        10919,  9149,  7388,  5868,  4716,  3698],
+       [ 4856,  6110,  7606,  9235, 11109, 13119, 15135, 17387, 19771,
+        21805, 23817, 25714, 27244, 28396, 29406, 29694, 29586, 29220,
+        28242, 26878, 25372, 23383, 21367, 19115, 16851, 14703, 12569,
+        10663,  8897,  7252,  5854,  4708,  3578],
+       [ 4728,  5976,  7356,  8863, 10611, 12611, 14627, 16759, 19017,
+        21041, 22937, 24824, 26350, 27498, 28392, 28674, 28570, 28200,
+        27230, 25978, 24477, 22613, 20603, 18471, 16329, 14191, 12293,
+        10291,  8631,  6996,  5602,  4460,  3450],
+       [ 4370,  5598,  6974,  8481, 10109, 11983, 13985, 15997, 18125,
+        20027, 21917, 23683, 25084, 26110, 26994, 27280, 27288, 26812,
+        26064, 24716, 23213, 21581, 19591, 17579, 15447, 13429, 11653,
+         9889,  8132,  6612,  5344,  4320,  3436]], dtype=uint16)
+>>> import torch.nn as nn
+>>> b = nn.Conv2d(1, 10, 3)
+>>> b
+Conv2d(1, 10, kernel_size=(3, 3), stride=(1, 1))
+>>>
+KeyboardInterrupt
+>>> ^X
+  File "<stdin>", line 1
+    
+    ^
+SyntaxError: invalid syntax
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> net = new terrainnet
+  File "<stdin>", line 1
+    net = new terrainnet
+                       ^
+SyntaxError: invalid syntax
+>>> net = new terrainnet()
+  File "<stdin>", line 1
+    net = new terrainnet()
+                       ^
+SyntaxError: invalid syntax
+>>> net = terrainnet()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'module' object is not callable
+>>> net = terrainnet
+>>> net
+<module 'terrainnet' from 'C:\\Users\\Kasper\\Documents\\Terrain Experiments\\Assets\\terrainnet.py'>
+>>> import numpy as np
+>>> import random
+>>> import torch
+>>> import torch.nn as nn
+>>> import torch.nn.functional as func
+>>> import torch.optim as optim
+>>> torch.tensor.ones(3,3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'builtin_function_or_method' object has no attribute 'ones'
+>>> torch.ones(3,3)
+tensor([[1., 1., 1.],
+        [1., 1., 1.],
+        [1., 1., 1.]])
+>>> net.feedforward(torch.ones(4,4))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'terrainnet' has no attribute 'feedforward'
+>>> net = terrainnet.terrainnet()
+>>> net
+terrainnet(
+  (conv1): Conv2d(1, 10, kernel_size=(3, 3), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(3, 3), stride=(1, 1))
+  (conv3): Conv2d(20, 40, kernel_size=(3, 3), stride=(1, 1))
+  (conv4): Conv2d(40, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv5): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv6): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv7): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv8): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (up): Upsample(scale_factor=2.0, mode=bilinear)
+  (conv9): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv10): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv11): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv12): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv13): Conv2d(120, 40, kernel_size=(3, 3), stride=(1, 1))
+  (conv14): Conv2d(60, 20, kernel_size=(3, 3), stride=(1, 1))
+  (conv15): Conv2d(30, 10, kernel_size=(3, 3), stride=(1, 1))
+  (conv16): Conv2d(11, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+>>> net.feedforward(torch.ones(4,4))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 35, in feedforward
+    x1 = func.max_pool2d(func.relu(self.conv1(x)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Expected 4-dimensional input for 4-dimensional weight 10 1, but got 2-dimensional input of size [4, 4] instead
+>>> net.feedforward(torch.ones(1,1,4,4))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x2 = func.max_pool2d(func.relu(self.conv2(x)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size 20 10 3 3, expected input[1, 1, 4, 4] to have 10 channels, but got 1 channels instead
+>>> net.feedforward(torch.ones(1,1,128,128))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x2 = func.max_pool2d(func.relu(self.conv2(x)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size 20 10 3 3, expected input[1, 1, 128, 128] to have 10 channels, but got 1 channels instead
+>>> net
+terrainnet(
+  (conv1): Conv2d(1, 10, kernel_size=(3, 3), stride=(1, 1))
+  (conv2): Conv2d(10, 20, kernel_size=(3, 3), stride=(1, 1))
+  (conv3): Conv2d(20, 40, kernel_size=(3, 3), stride=(1, 1))
+  (conv4): Conv2d(40, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv5): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv6): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv7): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv8): Conv2d(80, 80, kernel_size=(3, 3), stride=(1, 1))
+  (up): Upsample(scale_factor=2.0, mode=bilinear)
+  (conv9): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv10): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv11): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv12): Conv2d(160, 80, kernel_size=(3, 3), stride=(1, 1))
+  (conv13): Conv2d(120, 40, kernel_size=(3, 3), stride=(1, 1))
+  (conv14): Conv2d(60, 20, kernel_size=(3, 3), stride=(1, 1))
+  (conv15): Conv2d(30, 10, kernel_size=(3, 3), stride=(1, 1))
+  (conv16): Conv2d(11, 1, kernel_size=(3, 3), stride=(1, 1))
+)
+>>> net[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'terrainnet' object is not subscriptable
+>>> net.conv1
+Conv2d(1, 10, kernel_size=(3, 3), stride=(1, 1))
+>>> net.conv1(torch.ones(1,1,4,4))
+tensor([[[[-0.1038, -0.1038],
+          [-0.1038, -0.1038]],
+
+         [[ 0.9241,  0.9241],
+          [ 0.9241,  0.9241]],
+
+         [[ 1.9947,  1.9947],
+          [ 1.9947,  1.9947]],
+
+         [[-0.7781, -0.7781],
+          [-0.7781, -0.7781]],
+
+         [[ 0.7850,  0.7850],
+          [ 0.7850,  0.7850]],
+
+         [[ 0.8492,  0.8492],
+          [ 0.8492,  0.8492]],
+
+         [[-1.0540, -1.0540],
+          [-1.0540, -1.0540]],
+
+         [[ 0.0630,  0.0630],
+          [ 0.0630,  0.0630]],
+
+         [[-0.8075, -0.8075],
+          [-0.8075, -0.8075]],
+
+         [[-0.4318, -0.4318],
+          [-0.4318, -0.4318]]]], grad_fn=<ThnnConv2DBackward>)
+>>> import terrainnet
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,128,128))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x2 = func.max_pool2d(func.relu(self.conv2(x)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size 20 10 3 3, expected input[1, 1, 128, 128] to have 10 channels, but got 1 channels instead
+>>> x1 = func.max_pool2d(func.relu(net.conv1(torch.ones(1,1,128,128))), (2,2))
+>>> x1
+tensor([[[[0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375],
+          [0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375],
+          [0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375],
+          ...,
+          [0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375],
+          [0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375],
+          [0.3375, 0.3375, 0.3375,  ..., 0.3375, 0.3375, 0.3375]],
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630],
+          [0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630],
+          [0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630],
+          ...,
+          [0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630],
+          [0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630],
+          [0.4630, 0.4630, 0.4630,  ..., 0.4630, 0.4630, 0.4630]],
+
+         ...,
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]],
+
+         [[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]]],
+       grad_fn=<MaxPool2DWithIndicesBackward>)
+>>> x1.size
+<built-in method size of Tensor object at 0x000002B0C1405C28>
+>>> x1.shape
+torch.Size([1, 10, 63, 63])
+>>> import terrainnet
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,128,128))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x2 = func.max_pool2d(func.relu(self.conv2(x2)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size 20 10 3 3, expected input[1, 1, 128, 128] to have 10 channels, but got 1 channels instead
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> net = terrainnet.terrainnet()
+>>> import torch
+>>> net.feedforward(torch.ones(1,1,128,128))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x2 = func.max_pool2d(func.relu(self.conv2(x2)), (2,2))
+UnboundLocalError: local variable 'x2' referenced before assignment
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> import torch
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,128,128))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 40, in feedforward
+    x6 = func.max_pool2d(func.relu(self.conv6(x5)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (2 x 2). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+>>> net.feedforward(torch.ones(1,1,256,256))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 41, in feedforward
+    x7 = func.max_pool2d(func.relu(self.conv7(x6)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (2 x 2). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+>>> net.feedforward(torch.ones(1,1,512,512))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 42, in feedforward
+    x8 = func.max_pool2d(func.relu(self.conv8(x7)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Calculated padded input size per channel: (2 x 2). Kernel size: (3 x 3). Kernel size can't be greater than actual input size
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 43, in feedforward
+    x9 = func.relu(self.conv9(torch.cat((x8, self.up1(x7)),3)))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 539, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'terrainnet' object has no attribute 'up1'
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> import torch
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 43, in feedforward
+    x9 = func.relu(self.conv9(torch.cat((x8, self.up(x7)),3)))
+RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 3. Got 2 and 12 in dimension 2 at ..\aten\src\TH/generic/THTensor.cpp:711
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> import torch
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 43, in feedforward
+    x9 = func.relu(self.conv9(torch.cat((x8, self.up(x7)),2)))
+RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 2. Got 2 and 12 in dimension 3 at ..\aten\src\TH/generic/THTensor.cpp:711
+>>> x1 = func.max_pool2d(func.relu(net.conv1(torch.ones(1,1,20,20))), (2,2))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'func' is not defined
+>>> import torch.nn.functional as func
+>>> x1 = func.max_pool2d(func.relu(net.conv1(torch.ones(1,1,20,20))), (2,2))
+>>> x1
+tensor([[[[0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693],
+          [0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693, 0.2693,
+           0.2693]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032],
+          [0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032, 0.5032,
+           0.5032]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000],
+          [0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000, 0.3000,
+           0.3000]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]],
+
+         [[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000],
+          [0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 0.0000,
+           0.0000]]]], grad_fn=<MaxPool2DWithIndicesBackward>)
+>>> x1.shape
+torch.Size([1, 10, 9, 9])
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import torch.nn.functional as func
+>>> import torch
+>>> import terrainnet
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 43, in feedforward
+    x9 = func.relu(self.conv9(torch.cat((x8, self.up(x7)), 1)))
+RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 1. Got 2 and 12 in dimension 2 at ..\aten\src\TH/generic/THTensor.cpp:711
+>>> x8
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'x8' is not defined
+>>> x1 = func.max_pool2d(func.relu(net.conv1(torch.ones(1,1,1024,1024))), (2,2))
+>>> x2 = func.max_pool2d(func.relu(net.conv2(x1)), (2,2))
+>>> x2.shape
+torch.Size([1, 20, 254, 254])
+>>> x3 = func.max_pool2d(func.relu(net.conv3(x2)), (2,2))
+>>> x3.shape
+torch.Size([1, 40, 126, 126])
+>>> x4 = func.max_pool2d(func.relu(net.conv4(x3)), (2,2))
+>>> x5 = func.max_pool2d(func.relu(self.conv5(x4)), (2,2))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'self' is not defined
+>>> x5 = func.max_pool2d(func.relu(net.conv5(x4)), (2,2))
+>>> x5.shape
+torch.Size([1, 80, 30, 30])
+>>> x6 = func.max_pool2d(func.relu(net.conv6(x5)), (2,2))
+>>> x6.shape
+torch.Size([1, 80, 14, 14])
+>>> x7 = func.max_pool2d(func.relu(net.conv7(x6)), (2,2))
+>>> x7.shape
+torch.Size([1, 80, 6, 6])
+>>> x8 = func.max_pool2d(func.relu(net.conv8(x7)), (2,2))
+>>> x8.shape
+torch.Size([1, 80, 2, 2])
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'torch' is not defined
+>>> import torch
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 50, in feedforward
+    x16 = func.relu(self.conv15(torch.cat((x, self.up(x15)), 1)))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size 10 30 3 3, expected input[1, 11, 1024, 1024] to have 30 channels, but got 11 channels instead
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import terrainnet
+>>> import torch
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1024,1024))
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+tensor([[[[0.0199, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0021],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]]],
+       grad_fn=<ReluBackward0>)
+>>> r = net.feedforward(torch.ones(1,1,1024,1024))
+>>> r.shape
+torch.Size([1, 1, 1024, 1024])
+>>> net.feedforward(torch.ones(1,1,1025,1025))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 50, in feedforward
+    x16 = func.relu(self.conv16(torch.cat((x, self.up(x15)), 1)))
+RuntimeError: invalid argument 0: Sizes of tensors must match except in dimension 1. Got 1025 and 1024 in dimension 2 at ..\aten\src\TH/generic/THTensor.cpp:711
+>>> net.feedforward(torch.ones(1,1,1025,1025)^Z
+  File "<stdin>", line 1
+    net.feedforward(torch.ones(1,1,1025,1025)
+                                             ^
+SyntaxError: invalid syntax
+>>> ^Z
+
+
+C:\Users\Kasper\Documents\Terrain Experiments\Assets>python
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import torchnet
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'torchnet'
+>>> import terrainnet
+>>> import torch
+>>> net = terrainnet.terrainnet()
+>>> net.feedforward(torch.ones(1,1,1025,1025)
+... )
+C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py:2539: UserWarning: Default upsampling behavior when mode=bilinear is changed to align_corners=False since 0.4.0. Please specify align_corners=True if the old behavior is desired. See the documentation of nn.Upsample for details.
+  "See the documentation of nn.Upsample for details.".format(mode))
+tensor([[[[0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0067],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          ...,
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0000, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000],
+          [0.0466, 0.0372, 0.0476,  ..., 0.0333, 0.0349, 0.0000]]]],
+       grad_fn=<ReluBackward0>)
+>>> a= net.feedforward(torch.ones(1,1,1025,1025))
+>>> a.shape
+torch.Size([1, 1, 1025, 1025])
+>>> import numpy as np
+>>> np.fromfile("smallalmostflat.raw")
+array([0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 1.02721835e-311,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000,
+       0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000])
+>>> np.fromfile("smallalmostflat.raw").shape
+(272,)
+>>> 33*33
+1089
+>>> 33*33/4
+272.25
+>>> test = np.fromfile("smallcentralhill.raw", dtype = uint16)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'uint16' is not defined
+>>> test = np.fromfile("smallcentralhill.raw", dtype = "uint16")
+>>> test
+array([ 874, 1014, 1376, ...,  754,  516,  384], dtype=uint16)
+>>> test.shape
+(1089,)
+>>> test = test.reshape(33,33)
+>>> test
+array([[ 874, 1014, 1376, ..., 1028,  776,  644],
+       [1004, 1376, 1638, ..., 1280, 1028,  892],
+       [1260, 1632, 2014, ..., 1542, 1280, 1024],
+       ...,
+       [ 988, 1236, 1488, ..., 1148,  890,  758],
+       [ 742,  872, 1114, ..., 1006,  760,  628],
+       [ 494,  736,  872, ...,  754,  516,  384]], dtype=uint16)
+>>> input = np.fromfile("input.raw", dtype = "uint16")
+>>> input.shape
+(1050625,)
+>>> input = input.reshape(1025,1025)
+>>> goal = np.fromfile("goal.raw", dtype = "uint16")
+>>> goal = goal.reshape(1025,1025)
+>>> input = input.reshape(1,1,1025,1025)
+>>> goal = goal.reshape(1,1,1025,1025)
+>>> input = torch.from_numpy(input)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't convert np.ndarray of type numpy.uint16. The only supported types are: float64, float32, float16, int64, int32, int16, int8, and uint8.
+>>> input /= (256*256)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: No loop matching the specified signature and casting
+was found for ufunc true_divide
+>>> input
+array([[[[41065, 41097, 41127, ..., 35632, 35654, 35674],
+         [40932, 40964, 40997, ..., 35704, 35714, 35722],
+         [40808, 40842, 40872, ..., 35784, 35782, 35778],
+         ...,
+         [30552, 30544, 30542, ..., 31834, 31862, 31894],
+         [30468, 30470, 30476, ..., 31924, 31954, 31982],
+         [30374, 30382, 30398, ..., 32022, 32050, 32074]]]], dtype=uint16)
+>>> input / 2
+array([[[[20532.5, 20548.5, 20563.5, ..., 17816. , 17827. , 17837. ],
+         [20466. , 20482. , 20498.5, ..., 17852. , 17857. , 17861. ],
+         [20404. , 20421. , 20436. , ..., 17892. , 17891. , 17889. ],
+         ...,
+         [15276. , 15272. , 15271. , ..., 15917. , 15931. , 15947. ],
+         [15234. , 15235. , 15238. , ..., 15962. , 15977. , 15991. ],
+         [15187. , 15191. , 15199. , ..., 16011. , 16025. , 16037. ]]]])
+>>> input = input / (256*256)
+>>> input
+array([[[[0.62660217, 0.62709045, 0.62754822, ..., 0.54370117,
+          0.54403687, 0.54434204],
+         [0.62457275, 0.62506104, 0.62556458, ..., 0.5447998 ,
+          0.54495239, 0.54507446],
+         [0.62268066, 0.62319946, 0.62365723, ..., 0.54602051,
+          0.54598999, 0.54592896],
+         ...,
+         [0.46618652, 0.46606445, 0.46603394, ..., 0.48574829,
+          0.48617554, 0.48666382],
+         [0.46490479, 0.4649353 , 0.46502686, ..., 0.48712158,
+          0.48757935, 0.48800659],
+         [0.46347046, 0.46359253, 0.46383667, ..., 0.48861694,
+          0.48904419, 0.4894104 ]]]])
+>>> input = torch.from_numpy(input)
+>>> input
+tensor([[[[0.6266, 0.6271, 0.6275,  ..., 0.5437, 0.5440, 0.5443],
+          [0.6246, 0.6251, 0.6256,  ..., 0.5448, 0.5450, 0.5451],
+          [0.6227, 0.6232, 0.6237,  ..., 0.5460, 0.5460, 0.5459],
+          ...,
+          [0.4662, 0.4661, 0.4660,  ..., 0.4857, 0.4862, 0.4867],
+          [0.4649, 0.4649, 0.4650,  ..., 0.4871, 0.4876, 0.4880],
+          [0.4635, 0.4636, 0.4638,  ..., 0.4886, 0.4890, 0.4894]]]],
+       dtype=torch.float64)
+>>> goal = goal / (256*256)
+>>> goal = torch.from_numpy(goal)
+>>> import numpy as np
+>>> import random
+>>> import torch
+>>> import torch.nn as nn
+>>> import torch.nn.functional as func
+>>> import torch.optim as optim
+>>> optimizer = optim.SGD(net.parameters(), lr=0.01)
+>>> loss = nn.MSELoss()
+>>> result = net.feedforward(input)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x1 = func.max_pool2d(func.relu(self.conv1(self.sidepad(x))), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Expected object of scalar type Double but got scalar type Float for argument #2 'weight'
+>>> input
+tensor([[[[0.6266, 0.6271, 0.6275,  ..., 0.5437, 0.5440, 0.5443],
+          [0.6246, 0.6251, 0.6256,  ..., 0.5448, 0.5450, 0.5451],
+          [0.6227, 0.6232, 0.6237,  ..., 0.5460, 0.5460, 0.5459],
+          ...,
+          [0.4662, 0.4661, 0.4660,  ..., 0.4857, 0.4862, 0.4867],
+          [0.4649, 0.4649, 0.4650,  ..., 0.4871, 0.4876, 0.4880],
+          [0.4635, 0.4636, 0.4638,  ..., 0.4886, 0.4890, 0.4894]]]],
+       dtype=torch.float64)
+>>> input = input.double()
+>>> input
+tensor([[[[0.6266, 0.6271, 0.6275,  ..., 0.5437, 0.5440, 0.5443],
+          [0.6246, 0.6251, 0.6256,  ..., 0.5448, 0.5450, 0.5451],
+          [0.6227, 0.6232, 0.6237,  ..., 0.5460, 0.5460, 0.5459],
+          ...,
+          [0.4662, 0.4661, 0.4660,  ..., 0.4857, 0.4862, 0.4867],
+          [0.4649, 0.4649, 0.4650,  ..., 0.4871, 0.4876, 0.4880],
+          [0.4635, 0.4636, 0.4638,  ..., 0.4886, 0.4890, 0.4894]]]],
+       dtype=torch.float64)
+>>> result = net.feedforward(input)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 36, in feedforward
+    x1 = func.max_pool2d(func.relu(self.conv1(self.sidepad(x))), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Expected object of scalar type Double but got scalar type Float for argument #2 'weight'
+>>> input = input.float()
+>>> input
+tensor([[[[0.6266, 0.6271, 0.6275,  ..., 0.5437, 0.5440, 0.5443],
+          [0.6246, 0.6251, 0.6256,  ..., 0.5448, 0.5450, 0.5451],
+          [0.6227, 0.6232, 0.6237,  ..., 0.5460, 0.5460, 0.5459],
+          ...,
+          [0.4662, 0.4661, 0.4660,  ..., 0.4857, 0.4862, 0.4867],
+          [0.4649, 0.4649, 0.4650,  ..., 0.4871, 0.4876, 0.4880],
+          [0.4635, 0.4636, 0.4638,  ..., 0.4886, 0.4890, 0.4894]]]])
+>>> result = net.feedforward(input)
+>>> goal = goal.float()
+>>> loss = criterion(result, goal)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'criterion' is not defined
+>>> out = loss(result, goal)
+>>> out
+tensor(0.2337, grad_fn=<MseLossBackward>)
+>>> out.backward()
+>>> optimizer.step()
+>>> for i in range(100):
+...     result = net.feedforward(input)
+...     out = loss(result, goal)
+...     print(out)
+...     out.backward()
+...     optimizer.step()
+...
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 50, in feedforward
+    x15 = func.relu(self.conv15(torch.cat((x1, self.up(x14)),1)))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\conv.py", line 338, in forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt
+>>> optimizer = optim.SGD(net.parameters(), lr=0.1)
+>>> for i in range(100):
+...     result = net.feedforward(input)
+...     out = loss(result, goal)
+...     print(out)
+...     out.backward()
+...     optimizer.step()
+...
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Users\Kasper\Documents\Terrain Experiments\Assets\terrainnet.py", line 39, in feedforward
+    x4 = func.max_pool2d(func.relu(self.conv4(x3)), (2,2))
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\_jit_internal.py", line 133, in fn
+    return if_false(*args, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py", line 494, in _max_pool2d
+    input, kernel_size, stride, padding, dilation, ceil_mode)
+KeyboardInterrupt
+>>> optimizer = optim.SGD(net.parameters(), lr=1)
+>>> for i in range(100):
+...     result = net.feedforward(input)
+...     out = loss(result, goal)
+...     print(out)
+...     out.backward()
+...     optimizer.step()
+...
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2198, grad_fn=<MseLossBackward>)
+tensor(6.6343, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+tensor(0.2337, grad_fn=<MseLossBackward>)
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\tensor.py", line 107, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\autograd\__init__.py", line 93, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt
+>>> net = terrainnet.terrainnet()
+>>> optimizer = optim.SGD(net.parameters(), lr=0.1)
+>>> for i in range(100):
+...     out = loss(result, goal)
+...     print(out
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\modules\loss.py", line 443, in forward
+    return F.mse_loss(input, target, reduction=self.reduction)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\nn\functional.py", line 2257, in mse_loss
+    ret = torch._C._nn.mse_loss(expanded_input, expanded_target, _Reduction.get_enum(reduction))
+KeyboardInterrupt
+>>> for i in range(100):
+...     result = net.feedforward(input)
+...     out = loss(result, goal)
+...     print(out)
+...     out.backward()
+...     optimizer.step()
+...
+tensor(0.1399, grad_fn=<MseLossBackward>)
+tensor(0.0014, grad_fn=<MseLossBackward>)
+tensor(0.1128, grad_fn=<MseLossBackward>)
+tensor(0.0556, grad_fn=<MseLossBackward>)
+tensor(0.0041, grad_fn=<MseLossBackward>)
+tensor(0.0493, grad_fn=<MseLossBackward>)
+tensor(0.0003, grad_fn=<MseLossBackward>)
+tensor(0.0158, grad_fn=<MseLossBackward>)
+tensor(0.0128, grad_fn=<MseLossBackward>)
+tensor(0.0013, grad_fn=<MseLossBackward>)
+tensor(0.0051, grad_fn=<MseLossBackward>)
+tensor(0.0162, grad_fn=<MseLossBackward>)
+tensor(0.0115, grad_fn=<MseLossBackward>)
+tensor(0.0007, grad_fn=<MseLossBackward>)
+tensor(0.0063, grad_fn=<MseLossBackward>)
+tensor(0.0166, grad_fn=<MseLossBackward>)
+tensor(0.0100, grad_fn=<MseLossBackward>)
+tensor(0.0003, grad_fn=<MseLossBackward>)
+tensor(0.0077, grad_fn=<MseLossBackward>)
+tensor(0.0167, grad_fn=<MseLossBackward>)
+tensor(0.0085, grad_fn=<MseLossBackward>)
+tensor(0.0002, grad_fn=<MseLossBackward>)
+tensor(0.0090, grad_fn=<MseLossBackward>)
+tensor(0.0166, grad_fn=<MseLossBackward>)
+tensor(0.0070, grad_fn=<MseLossBackward>)
+tensor(0.0003, grad_fn=<MseLossBackward>)
+tensor(0.0104, grad_fn=<MseLossBackward>)
+tensor(0.0163, grad_fn=<MseLossBackward>)
+tensor(0.0056, grad_fn=<MseLossBackward>)
+tensor(0.0007, grad_fn=<MseLossBackward>)
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\tensor.py", line 107, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\Kasper\AppData\Local\Programs\Python\Python37\lib\site-packages\torch\autograd\__init__.py", line 93, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt
+>>> result = net.feedforward(input)
+>>> result
+tensor([[[[0.3732, 0.4163, 0.4166,  ..., 0.3641, 0.3643, 0.2415],
+          [0.5078, 0.6519, 0.6523,  ..., 0.5701, 0.5703, 0.3667],
+          [0.5063, 0.6500, 0.6504,  ..., 0.5713, 0.5713, 0.3672],
+          ...,
+          [0.3838, 0.4909, 0.4908,  ..., 0.5105, 0.5110, 0.3294],
+          [0.3828, 0.4898, 0.4899,  ..., 0.5119, 0.5123, 0.3302],
+          [0.2861, 0.3959, 0.3960,  ..., 0.4150, 0.4154, 0.2589]]]],
+       grad_fn=<ReluBackward0>)
+>>>
